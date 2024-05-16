@@ -1,3 +1,29 @@
+## Project - Test task
+Front End app for convert text in PDF
+
+# Project structure
+- `src/common` - common components and script
+- `src/common/components` - common components
+- `src/common/services` - common services for requests to API
+- `src/common/utils` - common helper scripts
+- `src/features` - constituent components
+
+## Required
+
+1. Create .env
+2. Fill variables
+
+```dotenv
+REACT_APP_BASE_URL=URL
+REACT_APP_API_KEY=KEY
+```
+
+## Installation for development
+
+1. install nvm to your system for use nodejs and npm
+2. open terminal from root dir and run command: npm install
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -5,6 +31,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm run lint` 
+### `npm run lint:fix`
+### `npm run prettier`
+### `npm run prettier:fix`
+Code helpers
+
 
 ### `npm start`
 
